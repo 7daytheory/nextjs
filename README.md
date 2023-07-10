@@ -48,7 +48,8 @@ Next.js full stack application
 </ul>
 
 <h4>Rendering:</h4>
-<p>Next JS allows you to render on client side or server side rendering based on your needs. 
+<p>Next JS allows you to render on client side or server side rendering based on your needs. By default, it uses React server side rendering.<br>
+You can change it to a server side component by adding "use client" at top of component page<br>
 Client side is the code displayed when a user makes a request to the website.<br>
 The server side rendering will take that request and process the request and display all of the info at once - not great for SEO.<br>
 NextJS sends pre-rendered code directly to the browser which improves SEO.</p>
