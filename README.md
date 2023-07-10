@@ -52,7 +52,8 @@ Next.js full stack application
 You can change it to a server side component by adding "use client" at top of component page<br>
 Client side is the code displayed when a user makes a request to the website.<br>
 The server side rendering will take that request and process the request and display all of the info at once - not great for SEO.<br>
-NextJS sends pre-rendered code directly to the browser which improves SEO.</p>
+NextJS sends pre-rendered code directly to the browser which improves SEO.<br>
+Basically just use server side component until you require a client side component - more info here https://nextjs.org/docs/pages/building-your-application/rendering</p>
 
 <h4>Routing</h4>
 <p>In normal React, we install react-router-dom to handle the routing.<br>
