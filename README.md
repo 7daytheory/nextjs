@@ -68,3 +68,6 @@ In NextJS uses a file based <strong>routing system</strong> and the routing is h
 
 ### Next.js is still just React
 <p>It simplifies certain tasks but it is still just react, while automating lots of functions that saves the developer time, it's just an extension of react</p>
+
+### Serverless Server requests
+<p>2 different ways to define a route handler. You can create a file based route handler right within the API folder within the app directory , or create a route handler right inside the app directory itself - the issue with this is the page.js file inside the app file cannot interact as the server won't know if it's a request or a page. So the first option is the best one to use</p>
