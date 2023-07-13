@@ -82,3 +82,6 @@ Next.js supports following HTTP methods:
 <li>HEAD - Retrieves the headers of a resource without fetching its body</li>
 <li>OPTIONS - Retrieves the supported HTTP methods and other communication options for a resource</li>
 </ul>
+
+### Improve SEO
+
