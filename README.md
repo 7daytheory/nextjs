@@ -82,3 +82,8 @@ Next.js supports following HTTP methods:
 <li>HEAD - Retrieves the headers of a resource without fetching its body</li>
 <li>OPTIONS - Retrieves the supported HTTP methods and other communication options for a resource</li>
 </ul>
+
+### Improve SEO
+<p><strong>You can define Metadata in two ways : static and dynamic</strong></p>
+<p>Static: export special object called metadata with page</p>
+<p>Dynamic: export async function generateMetadata() {} - pass in params to pass in data to use for metadata</p>
