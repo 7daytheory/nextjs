@@ -15,7 +15,7 @@ export const metadata = {
 function getProduct() {
   //Search for product and return it for the dynamic metadata example
 
-  return 1;
+  return 1; //for the example
 }
 
 //Dynamic Metadata
