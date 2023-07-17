@@ -85,4 +85,5 @@ Next.js supports following HTTP methods:
 
 ### Improve SEO
 <p><strong>You can define Metadata in two ways : static and dynamic</strong></p>
-<p>Static: export special object called metadata with page ex : export const metadata = { title: "home"}</p>
+<p>Static: export special object called metadata with page</p>
+<p>Dynamic: export async function generateMetadata() {} - pass in params to pass in data to use for metadata</p>

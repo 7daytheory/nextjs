@@ -5,13 +5,26 @@
 //3. Incremental Static Generation (ISR)
 
 //Metadata (Static)
-
 export const metadata = {
   title: 'Home',
   description: "Website built with Next.js"
 }
-//Outpuit
+//Output
 //<title>Home</title><meta name="description" content="Website built with Next.js"/>
+
+function getProduct() {
+  //Search for product and return it for the dynamic metadata example
+
+  return 1;
+}
+
+//Dynamic Metadata
+export async function generateMetadata({params, searchParams}) {
+  const product = await getProduct(params.id);
+  return {title: product.title}
+}
+
+//Output
 
 async function Page ({ params }) {
   const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${params.id}`,
