@@ -4,6 +4,15 @@
 //2. Static Site Generation(SSG)
 //3. Incremental Static Generation (ISR)
 
+//Metadata (Static)
+
+export const metadata = {
+  title: 'Home',
+  description: "Website built with Next.js"
+}
+//Outpuit
+//<title>Home</title><meta name="description" content="Website built with Next.js"/>
+
 async function Page ({ params }) {
   const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${params.id}`,
   { next: {revalidate: 10} }
